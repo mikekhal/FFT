@@ -6,7 +6,11 @@ Fourier analysis converts a signal from its original domain (often time or space
 
 ![image](https://github.com/user-attachments/assets/be03eea8-29fa-4dde-88aa-404f88137d6e)
 
-This repository contains a Python script which reads an audio file, computes its frequency components, applies filtering using FFT, and then outputs an amplified and filtered audio file.
+The power spectral density (PSD) defines how the power of a signal or time series is distributed over frequency. The PSD is given by:
+![image](https://github.com/user-attachments/assets/6d44a64d-b1c5-457a-9dcb-3b2e084efeb4)
+
+
+This repository contains a Python script which reads an audio file, computes its frequency components, applies filtering using FFT, and then outputs a filtered audio file.
 
 ## Plot of the frequency values as a function of array index
 ![image](https://github.com/user-attachments/assets/0deaa208-0763-4413-94cb-a50f029e59ef)
